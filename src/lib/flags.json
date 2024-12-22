@@ -1,0 +1,35 @@
+{
+    "transgender": {
+        "colors": [
+            "#5BCEFA",
+            "#F5A9B8",
+            "#FFFFFF",
+            "#F5A9B8",
+            "#5BCEFA"
+        ]
+    },
+    "nonbinary": {
+        "colors": [
+            "#FFF433",
+            "#FFFFFF",
+            "#9B59D0",
+            "#2D2D2D"
+        ]
+    },
+    "pansexual": {
+        "colors": [
+            "#FF1B8D",
+            "#FFD800",
+            "#1BB3FF"
+        ]
+    },
+    "aromantic": {
+        "colors": [
+            "#3da542",
+            "#a7d379",
+            "#FFFFFF",
+            "#a9a9a9",
+            "#000000"
+        ]
+    }
+}

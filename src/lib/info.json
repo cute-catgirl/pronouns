@@ -1,0 +1,40 @@
+{
+    "page": {
+        "header": "Mae Moon",
+        "subtitle": ":33333333",
+        "color": "pink"
+    },
+    "flags": [
+        "transgender",
+        "pansexual",
+        "aromantic"
+    ],
+    "pronouns": {
+        "she/her": "love",
+        "it/its": "like",
+        "they/them": "dislike",
+        "he/him": "hate"
+    },
+    "names": {
+        "Mae": "love",
+        "[Deadname]": "hate"
+    },
+    "tags": {
+        "love": {
+            "display": "Love",
+            "icon": "Heart"
+        },
+        "like": {
+            "display": "Like",
+            "icon": "ThumbsUp"
+        },
+        "dislike": {
+            "display": "Dislike",
+            "icon": "ThumbsDown"
+        },
+        "hate": {
+            "display": "Hate",
+            "icon": "X"
+        }
+    }
+}
