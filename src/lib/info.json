@@ -1,4 +1,5 @@
 {
+    "$schema": "info.schema.json",
     "page": {
         "header": "Mae Moon",
         "subtitle": ":33333333",

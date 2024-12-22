@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "properties": {
+        "page": {
+            "title": "Page",
+            "description": "Page configuration options",
+            "type": "object",
+            "properties": {
+                "header": {
+                    "description": "Header to display on the page",
+                    "type": "string"
+                },
+                "subtitle": {
+                    "description": "Subtitle to display on the page",
+                    "type": "string"
+                },
+                "color": {
+                    "description": "Color to use for the page",
+                    "type": "string",
+                    "examples": [
+                        "pink",
+                        "blue"
+                    ]
+                }
+            }
+        },
+        "flags": {
+            "title": "Flags",
+            "description": "Flags to display on the page",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "examples": [
+                "transgender"
+            ]
+        },
+        "pronouns": {
+            "title": "Pronouns",
+            "description": "Pronouns to display on the page",
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "names": {
+            "title": "Names",
+            "description": "Names to display on the page",
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "tags": {
+            "title": "Tags",
+            "description": "Used to categorize pronouns and names",
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "display": {
+                        "type": "string",
+                        "description": "Text to display"
+                    },
+                    "icon": {
+                        "type": "string",
+                        "description": "Name of icon to display - see https://lucide.dev/icons/"
+                    }
+                }
+            }
+        }
+    }
+}
