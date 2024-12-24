@@ -42,7 +42,7 @@
 			<p class="text-center text-md font-light mt-2">{page.subtitle}</p>
 			<div class="flex gap-2 justify-center mt-4">
 				{#each flags as flag}
-					<Flag colors={flagDefinitions[flag].colors}/>
+					<Flag colors={flagDefinitions[flag].colors} name={flagDefinitions[flag].display}/>
 				{/each}
 			</div>
 		</div>

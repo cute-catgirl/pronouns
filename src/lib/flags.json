@@ -1,5 +1,6 @@
 {
     "transgender": {
+        "display": "Transgender",
         "colors": [
             "#5BCEFA",
             "#F5A9B8",
@@ -9,6 +10,7 @@
         ]
     },
     "nonbinary": {
+        "display": "Nonbinary",
         "colors": [
             "#FFF433",
             "#FFFFFF",
@@ -17,6 +19,7 @@
         ]
     },
     "pansexual": {
+        "display": "Pansexual",
         "colors": [
             "#FF1B8D",
             "#FFD800",
@@ -24,6 +27,7 @@
         ]
     },
     "aromantic": {
+        "display": "Aromantic",
         "colors": [
             "#3da542",
             "#a7d379",
