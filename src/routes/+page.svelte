@@ -1,7 +1,7 @@
 <script>
 	import LucideIcon from '$lib/LucideIcon.svelte';
 	import Flag from '$lib/Flag.svelte';
-	import { page, flags, pronouns, names, tags } from '$lib/info.json';
+	import { page, footer, flags, pronouns, names, tags } from '$lib/info.json';
 	import flagDefinitions from '$lib/flags.json';
 	const colorVariants = {
 		pink: {
@@ -70,7 +70,7 @@
 			
 			<section class="p-6">
 				<h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
-					<LucideIcon name="Tag"/>
+					<LucideIcon name="Tag" />
 					Names
 				</h2>
 				<div class="space-y-3">
@@ -88,6 +88,14 @@
 				</div>
 			</section>
 		</div>
+		<footer class="p-4 bg-gray-50 divide-y divide-gray-100">
+			{#each footer as item}
+				<div class="flex items-center justify-center gap-1 py-0.5">
+					<LucideIcon name={item.icon} small />
+					<a href={item.url} class="block text-center text-gray-500 hover:text-gray-700 text-xs">{item.text}</a>
+				</div>
+			{/each}
+		</footer>
 	</div>
 </main>
 

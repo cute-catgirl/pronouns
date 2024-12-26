@@ -5,6 +5,18 @@
         "subtitle": ":33333333",
         "color": "pink"
     },
+    "footer": [
+        {
+            "icon": "Github",
+            "text": "Create your own",
+            "url": "https://github.com/cute-catgirl/pronouns"
+        },
+        {
+            "icon": "Heart",
+            "text": "Made with love by Mae Moon",
+            "url": "https://maemoon.me"
+        }
+    ],
     "flags": [
         "transgender",
         "pansexual",
