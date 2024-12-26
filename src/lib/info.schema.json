@@ -24,6 +24,28 @@
                 }
             }
         },
+        "footer": {
+            "title": "Footer",
+            "description": "Footer to display on the page",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "icon": {
+                        "description": "Name of icon to display - see https://lucide.dev/icons/",
+                        "type": "string"
+                    },
+                    "text": {
+                        "description": "Text to display",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "URL to link to",
+                        "type": "string"
+                    }
+                }
+            }
+        },
         "flags": {
             "title": "Flags",
             "description": "Flags to display on the page",
